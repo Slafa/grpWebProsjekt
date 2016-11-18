@@ -1,0 +1,63 @@
+#html, body{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+.container{/*container standar*/
+    
+    position: relative;
+    top: 100px;
+    width: 978px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#containerindex{ 
+    background-image:url(bilder/enkel_gang.png);
+}
+
+.container div, img{
+    position: absolute;
+    
+}
+#robot1{
+    left:400px;
+    bottom: 200px;
+}
+
+#start {
+    bottom: 0px;
+    left: 310px;
+    text-align: center;
+    color:  white;
+    font-size: 4em;
+    font-family:arial;
+    
+}
+#containerinfo{ 
+    background-image:url(bilder/lab_3.png);
+}
+#infotekst{
+    top: 0px;
+    left:25%;
+    height: 350px;
+    width: 50%;
+    
+    font-family: ariel;
+    font-size: 3em;
+    
+}
+
+
+#robotinfo{
+    
+    bottom: 0px;
+    right:450px;
+    transform: rotateZ(90deg);
+    
+}
+
+
